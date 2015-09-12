@@ -27,6 +27,7 @@ public class ActivityOne extends Activity {
 	// mCreate, mRestart, mStart and mResume
 	// to count calls to onCreate(), onRestart(), onStart() and
 	// onResume(). These variables should not be defined as static.
+    private int mCreate, mRestart, mResume;
 
 	// You will need to increment these variables' values when their
 	// corresponding lifecycle methods get called.
@@ -34,6 +35,7 @@ public class ActivityOne extends Activity {
 	// TODO: Create variables for each of the TextViews
 	// named mTvCreate, mTvRestart, mTvStart, mTvResume.
 	// for displaying the current count of each counter variable
+    private TextView mTvCreate, mTvRestart, mTvStart, mTvResume;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
