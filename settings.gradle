@@ -1,2 +1,4 @@
 include ':lab3a_MyBrowser'
 include ':lab3a_IntentsLab'
+include ':lab3b_DangerousApp'
+include ':lab3b_PermissionsLab'
