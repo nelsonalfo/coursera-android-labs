@@ -1,3 +1,10 @@
+/.idea
+/LICENSE
+/README.md
+/gradlew.bat
+/gradlew
+/import-summary.txt
+/coursera-android-labs.iml
 # Built application files
 *.apk
 *.ap_
